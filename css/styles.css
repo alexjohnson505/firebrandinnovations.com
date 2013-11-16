@@ -1,0 +1,156 @@
+body {
+    background-color: #f1f1f1;
+    margin: 0px;
+    /*background-image: url(../images/bg.png);
+    background-position: top 20px;
+    background-repeat: repeat;*/
+}
+h1, h2, h3, h4, h5, p {
+    font-family:'OpenSansRegular', sans-serif;
+}
+h2 {
+    margin: 0;
+    font-family: "BebasNeueRegular", sans-serif;
+    font-size: 40px;
+    color: #ed1f24;
+    text-shadow: 1px 0px 0px #999
+}
+h5 {
+    font-size: 18px;
+}
+p {
+    line-height: 30px;
+    font-size:17px;
+}
+hr {
+    width: 80%;
+    color: #ed1f24;
+    margin: 40px auto !important;
+    border-top: 1px solid #ed1f24;
+    border-bottom: 1px solid #eee;
+}
+strong {
+    font-weight: bold;
+}
+header {
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+}
+.header-wrap {
+    margin: 0 auto;
+    padding: 20px 0;
+    max-width: 900px;
+}
+header img {
+    margin: auto;
+}
+header ul {
+    margin: 6px 0;
+    float: right;
+    top: 30px;
+    right: 60px;
+}
+header ul.nav-pills a {
+    color: #000;
+}
+header ul.nav-pills .active a {
+    background-color: #ed1f24;
+}
+header ul.nav-pills a:hover {
+    color: #fff;
+    background-color: #0088cc;
+}   
+footer {
+    margin-top: 100px;
+}
+/* Custom container */
+.container-narrow{
+    margin: 0 auto;
+    max-width: 900px;
+}
+.container-narrow > hr {
+    margin: 5px 0;
+}
+/* Main marketing message and sign up button */
+.jumbotron {
+    width: 100%;
+    margin: 75px 0 100px;
+    text-align: center;
+
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+    box-sizing: border-box;         /* Opera/IE 8+ */
+}
+.jumbotron h1 {
+    margin: 0;
+    font-family: "BebasNeueRegular", sans-serif;
+    font-size: 90px;
+    text-transform:uppercase;
+    color: #ed1f24;
+    text-align: center;
+    text-shadow: 0 2px 1px #999;
+    line-height: 1;
+}
+/* Supporting marketing content */
+.marketing {
+    margin: 35px 0 0;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+.marketing > div {
+    float: left;
+    position: relative;
+}
+.marketing p + h2 {
+    margin-top: 28px;
+}
+.lead {
+    font-family:'OpenSansRegular', sans-serif;
+    color: #4c4c4c;
+}
+.call-to-action-blue {
+    display: block;
+    background-color: #334d9f;
+    padding: 5px 15px;
+    font-family: "BebasNeueRegular", sans-serif;;
+    font-size: 20px;
+    text-transform:uppercase;
+    color: #fff;
+    float: right;
+}
+.call-to-action-blue:hover {
+    color: #fff;
+    text-decoration: none;
+    background-color: #ed1f24;
+}
+.frame {
+    padding: 4px;
+    background-color: #fff;
+}
+.frame:hover {
+}
+
+
+
+@media only screen and (max-width : 768px) {
+    p {
+        line-height: 30px;
+        font-size:14px;
+    }
+    header img {
+        display: block;
+        margin: auto;
+        
+    }
+    header ul.nav {
+        display: block;
+        padding: 0;
+        float: none;
+    }
+    header ul.nav li {
+        text-align: center;
+        float: none;
+        margin: 0 20px;
+    }
+}
