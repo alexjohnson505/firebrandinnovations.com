@@ -131,7 +131,16 @@ footer {
 .frame:hover {
 }
 
-
+/* Video Conversation-specific styles */
+/* Primary: 334d9f, Secondary: 97a6d0; */
+.videoconversation h2 {
+    color: #334d9f;
+    
+}
+.videoconversation hr {
+    color: #334d9f;
+    border-top: 1px solid #334d9f;    
+}
 
 @media only screen and (max-width : 768px) {
     p {
@@ -154,3 +163,5 @@ footer {
         margin: 0 20px;
     }
 }
+
+

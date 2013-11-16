@@ -4,6 +4,10 @@ firebrandinnovations
 Website for Firebrand Innovations, Video Conversation, and Mark Buckler
 
 # TODO:
+- Responsive support
+- Contact form
+- Fix Scaffolding (ex: recognition)
+- Fix URLs (ex: *.htm)
 
 # Special Thanks
 Special thanks to:
