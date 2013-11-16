@@ -8,6 +8,7 @@ Website for Firebrand Innovations, Video Conversation, and Mark Buckler
 - Contact form
 - Fix Scaffolding (ex: recognition)
 - Fix URLs (ex: *.htm)
+- Add images
 
 # Special Thanks
 Special thanks to:
