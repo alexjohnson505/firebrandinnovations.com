@@ -29,6 +29,9 @@ hr {
     border-top: 1px solid #ed1f24;
     border-bottom: 1px solid #eee;
 }
+hr.no-border {
+    border: none;
+}
 strong {
     font-weight: bold;
 }
@@ -104,6 +107,9 @@ footer {
 }
 .marketing p + h2 {
     margin-top: 28px;
+}
+.span12 {
+    margin-left: 0px !important;
 }
 .lead {
     font-family:'OpenSansRegular', sans-serif;
